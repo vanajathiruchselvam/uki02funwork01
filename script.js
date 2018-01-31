@@ -5,7 +5,7 @@ SC.initialize({
 
 $(document).ready(function() {
 
-  SC.stream('/tracks/316037925', function(sound) {
+  SC.stream('/tracks/296485126', function(sound) {
     $('#start1').click(function(e) {
       e.preventDefault();
       sound.start();
